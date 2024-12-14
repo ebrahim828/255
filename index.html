@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منافسة تامين وتوريد اجهزة امياز تابعة لمدينة الملك فهد العسكرية</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-file-alt"></i> منافسة تامين وتوريد اجهزة امياز تابعة لمدينة الملك فهد العسكرية</h1>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="info"><i class="fas fa-info-circle"></i> معلومات المنافسة</button>
+            <button class="tab-button" data-tab="contact"><i class="fas fa-address-card"></i> معلومات الاتصال</button>
+            <button class="tab-button" data-tab="delivery"><i class="fas fa-map-marker-alt"></i> مكان التسليم</button>
+           <button class="tab-button" data-tab="terms"><i class="fas fa-file-contract"></i> الشروط والملاحظات</button>
+            <button class="tab-button" data-tab="technical"><i class="fas fa-file-alt"></i> الوثائق الفنية</button>
+            <button class="tab-button" data-tab="financial"><i class="fas fa-file-invoice-dollar"></i> الوثائق المالية</button>
+               <button class="tab-button" data-tab="items"><i class="fas fa-list-ul"></i> جدول الكميات</button>
+        </nav>
+
+        <main class="tab-content-container">
+            <div id="info" class="tab-content active">
+                <section class="card">
+                    <h2><i class="fas fa-info-circle"></i> معلومات المنافسة الأساسية</h2>
+                    <div class="info-card">
+                         <div class="info-item"><i class="fas fa-signature"></i> <span class="label">اسم المنافسة:</span> <span id="tenderName">تامين وتوريد اجهزة امياز تابعة لمدينة الملك فهد العسكرية</span></div>
+                          <div class="info-item"><i class="fas fa-hashtag"></i> <span class="label">الرقم المرجعي:</span> <span id="referenceNumber">241239005559</span></div>
+                           <div class="info-item"><i class="fas fa-calendar-alt"></i> <span class="label">مدة العقد:</span> <span id="contractDuration">45 يوم</span></div>
+                          <div class="info-item"> <i class="fas fa-money-bill-wave"></i> <span class="label">قيمة وثائق المنافسة:</span> <span id="documentValue">1000.00 ريال</span></div>
+                         <div class="info-item"><i class="fas fa-building"></i> <span class="label">الجهة الحكومية:</span> <span id="governmentEntity">القوات البرية</span></div>
+                    </div>
+                </section>
+                  <section class="card">
+                    <h2><i class="fas fa-calendar-alt"></i> العناوين والمواعيد المتعلقة بالمنافسة</h2>
+                    <div class="info-card">
+                    <div class="info-item"><i class="fas fa-question-circle"></i> <span class="label">آخر موعد لتقديم العروض:</span> <span id="inquiryDeadline">27/12/2024 26/06/1446 09:59 AM</span></div>
+                    <div class="info-item"><i class="fas fa-calendar-check"></i> <span class="label">التاريخ المتوقع للترسية:</span> <span id="awardDate">19/01/2025 19/07/1446</span></div>
+                    <div class="info-item"><i class="fas fa-map-marker-alt"></i> <span class="label">مكان فتح العرض:</span> <span id="offerLocation">إدارة مدينة الملك فهد العسكرية بالمنطقة الشرقية</span></div>
+                    </div>
+                      </section>
+                <section class="card">
+                    <h2><i class="fas fa-map-marked-alt"></i>  مكان التنفيذ والتصنيف</h2>
+                    <div class="info-card">
+                    <div class="info-item"> <i class="fas fa-map-marker-alt"></i> <span class="label">مكان التنفيذ:</span> <span id="executionLocation">داخل المملكة - المنطقة الشرقية - الظهران</span></div>
+                     </div>
+                </section>
+            </div>
+
+            <div id="contact" class="tab-content">
+                <section class="card">
+                    <h2><i class="fas fa-address-card"></i> معلومات اتصال ممثل الجهة</h2>
+                    <div class="info-card">
+                        <div class="info-item"><i class="fas fa-user"></i> <span class="label">الإسم:</span> <span id="contactName"> عبدالله الخثعمي</span></div>
+                        <div class="info-item"><i class="fas fa-briefcase"></i> <span class="label">الوظيفة:</span> <span id="contactPosition">فني</span></div>
+                        <div class="info-item"><i class="fas fa-phone"></i> <span class="label">الهاتف:</span> <span id="contactPhone">0558555001</span></div>
+                        <div class="info-item"> <i class="fas fa-fax"></i> <span class="label">الفاكس:</span> <span id="contactFax">0138404105</span></div>
+                        <div class="info-item"> <i class="fas fa-envelope"></i> <span class="label"> الإلكتروني:</span> <span id="contactEmail">kfmc.pur@gmail.com</span></div>
+                    </div>
+                </section>
+            </div>
+
+           <div id="delivery" class="tab-content">
+                <section class="card">
+                    <h2><i class="fas fa-map-marker-alt"></i> مكان تسليم العروض</h2>
+                    <div class="info-card">
+                         <div class="info-item"><i class="fas fa-map"></i> <span class="label">العنوان:</span> <span id="deliveryAddress">ادارة المدينة</span></div>
+                        <div class="info-item"> <i class="fas fa-building"></i> <span class="label">المبنى:</span> <span id="deliveryBuilding">المشتريات</span></div>
+                        <div class="info-item"> <i class="fas fa-level-up-alt"></i> <span class="label">الطابق:</span> <span id="deliveryFloor">االول</span></div>
+                       <div class="info-item"> <i class="fas fa-door-open"></i> <span class="label">الغرفة / اسم الإدارة:</span> <span id="deliveryRoom">13</span></div>
+                       <div class="info-item"><i class="fas fa-clock"></i> <span class="label">وقت التسليم:</span> <span id="deliveryTime">11/07/1446 09:20 ص</span></div>
+                     </div>
+                </section>
+            </div>
+            
+             <div id="terms" class="tab-content">
+                <section class="card">
+                   <h2><i class="fas fa-file-contract"></i> ملخص شروط العمالة والمواصفات والملاحظات الهامة</h2>
+                   <ol class="doc-list">
+                    <li><strong>أولاً: الشروط الخاصة بالعمالة</strong></li>
+                      <ul class="info-list">
+                            <li><i class="fas fa-times-circle"></i> لا يوجد</li>
+                       </ul>
+                       <li><strong>ثانياً: جدول مواصفات العمالة</strong></li>
+                        <ul class="info-list">
+                             <li><i class="fas fa-times-circle"></i> لا يوجد</li>
+                        </ul>
+                    </ol>
+                </section>
+            </div>
+
+            <div id="technical" class="tab-content">
+                <section class="card">
+                    <h2><i class="fas fa-file-alt"></i> وثائق العرض الفني</h2>
+                     <ol class="doc-list">
+                         <li>يشمل العرض الفني المتطلبات التالية:</li>
+                         <li>توريد</li>
+                      </ol>
+                </section>
+            </div>
+
+            <div id="financial" class="tab-content">
+                <section class="card">
+                    <h2><i class="fas fa-file-invoice-dollar"></i> وثائق العرض المالي</h2>
+                    <ol class="doc-list">
+                        <li>يشمل العرض المالي المتطلبات التالية:</li>
+                         <li>امياز</li>
+                    </ol>
+                </section>
+                 <section class="card">
+                    <h2><i class="fas fa-money-bill-wave"></i> قيمة وثائق المنافسة</h2>
+                     <div class="info-card">
+                        <div class="info-item"> <span id="documentValue">500.00 خمسمائة ريال سعودي لا غير.</span></div>
+                     </div>
+                </section>
+            </div>
+             <div id="items" class="tab-content">
+                <section class="card">
+                    <h2><i class="fas fa-list-ul"></i> جدول الكميات</h2>
+                    <div class="table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>م</th>
+                                    <th>البند</th>
+                                    <th>وحدة القياس</th>
+                                    <th>الكمية</th>
+                                </tr>
+                            </thead>
+                             <tbody>
+                             <tr><td>1</td><td>ثلاجة باب واحد ستانليس ستيل</td><td>حبة</td><td>10</td></tr>
+<tr><td>2</td><td>فرامة لحم ايطالي</td><td>حبة</td><td>15</td></tr>
+<tr><td>3</td><td>منشار لحم</td><td>حبة</td><td>15</td></tr>
+<tr><td>4</td><td>كراسي جلوس لطاولات طعام قماش وجلد حسب العينة</td><td>حبة</td><td>200</td></tr>
+<tr><td>5</td><td>عربة منصة متنقلة 900 ملم حسب العينة</td><td>حبة</td><td>20</td></tr>
+<tr><td>6</td><td>برادة مياه بالقنينة 110-220فولت (حار+بارد)</td><td>حبة</td><td>25</td></tr>
+<tr><td>7</td><td>طاولة طعام 80*130*78 سم ذات سطح من الخشب الصناعي ذات سماكة لاتقل عن 35سم حسب العينة</td><td>حبة</td><td>30</td></tr>
+<tr><td>8</td><td>خلاط كهربائي ستان ستيل 1800مع ابريق وات 220 فولت ذو جودة عالية وشفرات مصنوعة من الكروم</td><td>حبة</td><td>15</td></tr>
+<tr><td>9</td><td>موقد غاز كبير 3 مفتاح</td><td>حبة</td><td>25</td></tr>
+<tr><td>10</td><td>سخان شاي 40 لتر</td><td>حبة</td><td>25</td></tr>
+<tr><td>11</td><td>فرن غاز 6عيون ذات جودة عالية مع مفاتيح كبيرة</td><td>PCS</td><td>12</td></tr>
+<tr><td>12</td><td>قلاية بطاطس كهربائية حوضين 20لتر 220فولت</td><td>حبة</td><td>15</td></tr>
+<tr><td>13</td><td>مكينة صنع الثلج مقاس 80 كجم</td><td>حبة</td><td>5</td></tr>
+<tr><td>14</td><td>توريد فرن تحمير ذبيحة يعمل على الغاز والكهرباء ارتفاع 1380 ملم بعرض 1040 بعمق 1020ملم ويعمل بنظام ت</td><td>حبة</td><td>12</td></tr>
+<tr><td>15</td><td>مكينة عصير 3 فتحات 50 لتر 220 فولت</td><td>حبة</td><td>15</td></tr>
+<tr><td>16</td><td>شواية دجاج كبيرة ذات وجهين للشوي تتسع لـ50الى 100حبة (قريل 35غاز وكهرباء 220 فولت)</td><td>حبة</td><td>15</td></tr>
+<tr><td>17</td><td>غسالة صحون سعة 400 صحن ستان ستيل 220 فولت مع خزان ماء 15 لتر وغلاية ماء ذات درجة حرارة 50 درجة مؤوية</td><td>حبة</td><td>10</td></tr>
+<tr><td>18</td><td>ثلاجة تجميد كبيرة ارضيةمقاس (15 قدم مكعب) 420لتر 220 فولت 20 هيرتز</td><td>حبة</td><td>20</td></tr>
+<tr><td>19</td><td>ثلاجة تبريد كبيرة (بابين ستانستيل) 6 أرفف (220 فولت 200*80 سم</td><td>حبة</td><td>10</td></tr>
+<tr><td>20</td><td>مكينة بروستد ذات وعائين ومقاسات احواض 50*35*33سم وكهرباء 220 فولت</td><td>حبة</td><td>13</td></tr>
+<tr><td>21</td><td>مكينة ايسكريم كبيرة 2 كمبروسر عدد 3 مخارج 220 فولت طولية متحركة.</td><td>حبة</td><td>3</td></tr>
+<tr><td>22</td><td>ستائر هوائية على الابواب 220 فولت متعدة السرعات</td><td>حبة</td><td>30</td></tr>
+<tr><td>23</td><td>توريد وتركيب واستبدال مع تشغيل واختبار وحدات تبريدوتجميد سعة 2 حصان كاملة داخلية وخارجية بمواصفات كم</td><td>حبة</td><td>15</td></tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
